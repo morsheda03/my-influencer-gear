@@ -16,7 +16,7 @@
 }
 .nav-bar{
     display: flex;
-     justify-content: space-between;
+    justify-content: space-between;
     margin-top: 56px;
     margin-right: 120px;
     margin-left: 120px;
@@ -38,7 +38,7 @@ li{
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 140px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     gap: 130px;
 }
 .title{
@@ -62,3 +62,20 @@ li{
 .img{
     background-image: url(../images/Circle\ design.svg);
 }
+
+
+/* scroll-bar section styles */
+.scroll-bar{
+    display:flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 62px;
+    padding-right: 62px;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+hr{
+    color: rgb(218, 202, 202);
+    margin: 0 196px;
+}
+
