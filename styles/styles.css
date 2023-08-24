@@ -143,3 +143,40 @@ span{
     color: rgba(224, 44, 109, 0.87) ;
 }
 
+/* Feature styles */
+
+.feature{
+    display: flex;
+    gap: 96px;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 120px;
+}
+.feature img{
+    width: 404px;
+    height: 270px;
+}
+.feature-title{
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.feature-des{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+.feature-btn{
+    color: white;
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 5px;
+}
+#arrow{
+    color: white;
+    margin-left: 5px;
+}
+
