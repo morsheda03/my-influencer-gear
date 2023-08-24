@@ -79,3 +79,67 @@ hr{
     margin: 0 196px;
 }
 
+/* popular collection styles */
+
+.collection-title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:  100px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-left:180px ;
+    margin-right: 180px;
+    margin-top: 40px;
+    gap: 30px;
+     
+}
+.collection{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 25px 14px;
+    margin-top: 30px;
+}
+.collections img{
+    width: 300px;
+    height: 256px;
+}
+.product-name{
+    font-size: 28px;
+    font-weight: 500;
+}
+.dollar{
+    font-size: 24px;
+    font-weight: 400;
+}
+span{
+    font-weight: 700;
+}
+.fa-star{
+    color: #FB8200;
+}
+.collection-des{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+}
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+    text-align: end;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 197px;
+    margin-top: 50px;
+}
+
+.fa-arrow-right{
+    color: rgba(224, 44, 109, 0.87) ;
+}
+
